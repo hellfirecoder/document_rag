@@ -197,12 +197,7 @@ Outputs: `hit_rate`, `mrr`, and `recall_at_k`.
 
 ## Security and Privacy
 
-This is designed for local use. PDF content, embeddings, and LLM calls stay entirely on your machine. If you ever move this to a cloud environment, you'll want to add proper authentication, encryption at rest, and secret management — none of that is in scope here.
+This is designed for local use. PDF content, embeddings, and LLM calls stay entirely on your machine.
 
 ---
 
-## Known Limitations
-
-- No multi-user support or auth layer
-- Conversation history is stored in SQLite locally
-- No production monitoring or observability yet
