@@ -1,0 +1,46 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.so
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# Environment variables
+.env
+.env.*
+
+# Build artifacts
+build/
+dist/
+*.egg-info/
+
+# Local runtime/output files
+uploads/
+streamlit_history.json
+
+# Local vector/model storage (large and machine-specific)
+qdrant_storage/
+*.faiss
+
+# Ignore downloaded HF model cache inside app folder
+projrag/rag/models/
+
+# Django and logs
+db.sqlite3
+*.log
+
+# Editor/OS files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+/projrag
